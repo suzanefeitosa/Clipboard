@@ -18,24 +18,32 @@ body {
 
 /* header */
 
-header {
 
-    width: 375px;
-    height: 675px;
+.logo-clipboard {
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-clipboard img {
 
     width: 125px;
     height: 125px;
-    margin: 123px 125px 0px 125px;
+    margin-top: 123px;
+}
+
+.title-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .title-header1 {
     font-weight: 600;
     font-size: 32px;
-    margin: 64px 32px 0px 32px;
+    margin-top: 64px;
     color: #4C545C;
     text-align: center;
 
@@ -44,23 +52,27 @@ header {
 
 }
 
+
 .text-header {
     font-weight: 400;
     font-size: 16px;
     color: #9EABB2;
     line-height: 1.5;
     text-align: center;
-    margin: 16px 40px 0px 32px;
+    margin: 16px;
 
     width: 311px;
     height: 78px;
 
 }
 
-/* .button-header {
+.button-header {
     display: flex;
     flex-direction: column;
-} */
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
 
 .button-header1 {
 
@@ -74,10 +86,10 @@ header {
     box-shadow: 0px 10px 20px #89e5c649;
     font-family: 'Bai Jamjuree', sans-serif;
 
-    /* width: 311px;
-    height: 56px; */
+    width: 311px;
+    height: 56px;
     padding: 13px 50px;
-    margin: 48px 40px 24px 32px;
+
 }
 
 .button-header2 {
@@ -91,10 +103,10 @@ header {
     box-shadow: 0px 10px 20px #6536bb3d;
     font-family: 'Bai Jamjuree', sans-serif;
 
-    /* width: 311px;
-    height: 56px; */
+    width: 311px;
+    height: 56px;
     padding: 13px 50px;
-    margin: 0px 40px 0px 32px;
+
 }
 
 /* main */
@@ -103,9 +115,11 @@ header {
 
 .container-1 {
 
-    width: 312px;
-    height: 973px;
-    margin: 160px 32px 0px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
 }
 
 .title-1 {
@@ -153,6 +167,7 @@ header {
 
     margin-top: 56px;
 
+
 }
 
 .text-c1 {
@@ -162,6 +177,9 @@ header {
     text-align: center;
     color: #9EABB2;
     margin-top: 10px;
+    width: 311px;
+    height: 130px;
+
 }
 
 .title-c2 {
@@ -171,7 +189,6 @@ header {
     color: #4C545C;
     text-align: center;
 
-    margin-top: 48px;
 
 }
 
@@ -182,6 +199,9 @@ header {
     text-align: center;
     color: #9EABB2;
     margin-top: 10px;
+
+    width: 311px;
+    height: 130px;
 }
 
 .title-c3 {
@@ -190,8 +210,6 @@ header {
     font-size: 24px;
     color: #4C545C;
     text-align: center;
-
-    margin-top: 48px;
 
 }
 
@@ -202,15 +220,20 @@ header {
     text-align: center;
     color: #9EABB2;
     margin-top: 10px;
+
+    width: 311px;
+    height: 130px;
 }
 
 /* Second Container */
 
 .container-2 {
 
-    width: 311px;
-    height: 410px;
-    margin: 186px 32px 0px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
 }
 
 .title-c4 {
@@ -219,6 +242,9 @@ header {
     font-size: 28px;
     color: #4C545C;
     text-align: center;
+
+    width: 311px;
+    height: 70px;
 }
 
 .text-c4 {
@@ -229,6 +255,9 @@ header {
     line-height: 1.5;
     margin-top: 16px;
     text-align: center;
+
+    width: 311px;
+    height: 130px;
 
 }
 
@@ -242,9 +271,11 @@ header {
 
 .container-3 {
 
-    width: 311px;
-    height: 894px;
-    margin: 130px 32px 0px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 130px;
 }
 
 .title-c5 {
@@ -253,6 +284,9 @@ header {
     font-size: 28px;
     color: #4C545C;
     text-align: center;
+
+    width: 311px;
+    height: 70px;
 
 }
 
@@ -348,6 +382,13 @@ header {
 
 /* fourth container */
 
+.container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .partners {
 
     width: 139px;
@@ -355,7 +396,6 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 131px 118px 0px 118px;
     gap: 59px;
 }
 
@@ -372,7 +412,7 @@ header {
 
     width: 311px;
     height: 372px;
-    margin: 170px 32px 0px 32px;
+    margin-top: 170px;
 }
 
 .title-c6 {
@@ -416,7 +456,7 @@ header {
     width: 311px;
     height: 56px;
     padding: 13px 50px;
-    margin: 46px 32px 24px 32px;
+    margin: 46px 0px 24px 0px;
 }
 
 .button-2 {
@@ -433,17 +473,18 @@ header {
     width: 311px;
     height: 56px;
     padding: 13px 50px;
-    margin: 0px 32px 0px 32px;
 }
 
 /* footer */
 
 footer {
 
-    width: 375px;
-    height: 500px;
     background-color: #F2F2F2;
     margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .logo-footer {
@@ -484,6 +525,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    list-style: none;
 }
 
 .social-links {
