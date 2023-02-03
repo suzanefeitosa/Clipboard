@@ -1,0 +1,134 @@
+/* media queries */
+
+@media (min-width: 700px) {
+
+    body {
+        background-image: url(./assets/bg-header-desktop.png);
+    }
+
+    .title-header1 , .title-1 , .title-c4 , .title-c5, .title-c6 {
+       
+        font-size: 46px;
+        width: 730px;
+        height: 58px;
+    }
+
+    .text-header, .text-1 , .text-c4 , .text-c5 , .text-c6 {  
+        font-size: 20px;
+        width: 730px;
+        height: 60px;
+    }
+
+    .button-header , .button-main {
+
+        display: flex;
+        flex-direction: row;
+        margin-top: 56px;
+        
+    }
+     .button-header1, .button-header2 , .button-1 , .button-2  {
+        
+        padding: 15px 36px;
+    }
+
+    .responsive {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: flex-start;
+        gap:110px;
+        margin-top: 100px;   
+    }
+
+    .computer img {
+       
+        margin-top: 40px;
+        width: 752px;
+        height: 572px;
+    }
+
+    .devices img {
+
+        width: 711px;
+        height: 475px;
+      
+    }
+
+    .container-3 {
+
+        margin-top: 50px;
+    }
+
+    .responsive-icons {
+
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .partners {
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .partners img {
+
+        width: 182px;
+        height: 57px;
+    }
+
+    .container-5 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        height: 150px;
+       
+    }
+
+
+    .menu ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 50px;
+      }
+      
+      .nav-1 {
+
+        grid-row-start: 1;
+        grid-column-start: 1;
+      }
+      
+      .nav-2 {
+        grid-row-start: 2;
+        grid-column-start: 1;
+      }
+      
+      .nav-3 {
+        grid-row-start: 1;
+        grid-column-start: 2;
+      }
+      
+      .nav-4 {
+        grid-row-start: 2;
+        grid-column-start: 2;
+      }
+      
+      .nav-5 {
+
+        grid-row-start: 1;
+        grid-column-start: 3;
+      }
+      
+}
