@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+:root {
+
+    --filter-color: #26BBA4;
+}
+
 
 body {
 
@@ -508,8 +513,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
-
+.menu li a:hover {
+    color: #26BBA4;
 }
 
 .menu {
@@ -540,5 +547,6 @@ footer {
 
     justify-content: center;
     align-items: center;
-
+   
 }
+

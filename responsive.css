@@ -74,8 +74,8 @@
 
     .partners img {
 
-        width: 182px;
-        height: 57px;
+        width: 130px;
+        height: 51px;
     }
 
     .container-5 {
@@ -97,7 +97,18 @@
        
     }
 
+    .menu ul li {
 
+        display: flex;
+       justify-content: start;
+    }
+
+    .menu a{
+
+        text-align: left;
+            
+        }
+    
     .menu ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
