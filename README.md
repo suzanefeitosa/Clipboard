@@ -2,7 +2,7 @@
 <p align="center">This is a solution to the Clipboard landing page, challenge on Frontend Mentor</p>
 <br>
 <p align="center">
-  <img alt="Clipboard" src="./assets/preview" width="100%">
+  <img alt="Clipboard" src="https://github.com/suzanefeitosa/Clipboard/blob/main/assets/preview.png?raw=true" width="100%">
 </p>
 
 ## 🚀Built with
