@@ -92,7 +92,7 @@ body {
     box-shadow: 0px 10px 20px #89e5c649;
     font-family: 'Bai Jamjuree', sans-serif;
     padding: 15px 80px;
-    cursor: pointer;
+
 
 }
 
@@ -107,7 +107,6 @@ body {
     box-shadow: 0px 10px 20px #6536bb3d;
     font-family: 'Bai Jamjuree', sans-serif;
     padding: 15px 80px;
-    cursor: pointer;
 
 }
 
@@ -451,7 +450,7 @@ body {
     border-radius: 28px;
     box-shadow: 0px 10px 20px #89e5c649;
     font-family: 'Bai Jamjuree', sans-serif;
-    cursor: pointer;
+
 
     
     padding: 13px 50px;
@@ -468,8 +467,7 @@ body {
     border-radius: 28px;
     box-shadow: 0px 10px 20px #6536bb3d;
     font-family: 'Bai Jamjuree', sans-serif;
-    cursor: pointer;
-
+   
     
     padding: 13px 50px;
 }
